@@ -54,7 +54,7 @@ console.log("data:",data)
     <div>
           <form onSubmit={handleSubmit}>
                 <input
-                placeholder='email'
+                placeholder='correo'
                  type="text"
                  name="email"
                  onChange={e => handleChange(e,"email")}               
@@ -66,7 +66,7 @@ console.log("data:",data)
                        }
                 <br/>
                 <input
-                placeholder='password'
+                placeholder='contraseña'
                  type="text"
                  name="password"
                  onChange={e => handleChange(e,"password")}
